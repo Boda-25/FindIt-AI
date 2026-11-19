@@ -1,0 +1,12 @@
+{
+    "image_search": {
+        "Precision@10": 0.7560000000000001,
+        "Recall@10": 0.009851502785954723,
+        "MAP@10": 0.7041944444444446,
+        "Average Latency (ms)": 9.062344630001462
+    },
+    "text_search": {
+        "Text Precision@10": 0.78,
+        "Average Text Latency (ms)": 36.694969099971786
+    }
+}

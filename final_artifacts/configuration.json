@@ -1,0 +1,15 @@
+{
+    "project_name": "FindIt AI",
+    "model_name": "openai/clip-vit-base-patch32",
+    "embedding_dimension": 512,
+    "number_of_images": 44419,
+    "index_type": "IndexIDMap2(IndexFlatIP)",
+    "similarity_metric": "Cosine Similarity",
+    "embedding_normalization": "L2",
+    "supported_search_modes": [
+        "Text-to-Image",
+        "Image-to-Image"
+    ],
+    "metadata_file": "metadata.csv",
+    "index_file": "findit_faiss.index"
+}
